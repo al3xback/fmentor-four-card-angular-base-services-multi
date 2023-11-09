@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
+import { ChallengeService } from './shared/challenge.service';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+	selector: 'app-root',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.scss'],
+	providers: [ChallengeService]
 })
-export class AppComponent {
-  title = 'fmentor-four-card-angular-base-services-multi';
-}
+export class AppComponent {}
