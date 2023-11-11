@@ -14,6 +14,6 @@ export class CardIntroComponent implements OnInit {
 	constructor(private cardsService: CardsService) {}
 
 	ngOnInit() {
-		this.summary = this.cardsService.getSummaryData();
+		this.summary = this.cardsService.getCardSummaryData();
 	}
 }
